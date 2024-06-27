@@ -26,7 +26,7 @@
             <div class="form-inner">
                 <form action="login_user.php" method="POST" class="login">
                     <div class="field">
-                        <input type="text" placeholder="Email Address"name="l_email" required>
+                        <input type="email" placeholder="Email Address"name="l_email" required>
                     </div>
                     <div class="field">
                         <input type="password" placeholder="Password" name="l_pass" required>
@@ -40,7 +40,7 @@
                 </form>
                 <form action="register_user.php" method="POST" class="signup">
                     <div class="field">
-                        <input type="text" placeholder="Email Address" name ="s_email"required>
+                        <input type="email" placeholder="Email Address" name ="s_email"required>
                     </div>
                     <div class="field">
                         <input type="password" placeholder="Password" name = "s_pass" required>
